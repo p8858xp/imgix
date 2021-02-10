@@ -23,7 +23,10 @@
       outline: none;
     }
   }
-  &__input {
+  // &__image {
+  //   border-radius: rem;
+  // }
+  &__text {
     border: 1px solid #f15529;
     background: #fff;
     color: grey;
@@ -34,6 +37,13 @@
     }
     &:focus {
       border: 2px solid #f15529;
+    }
+  }
+  &__blend {
+    label {
+      color: grey;
+      font-weight: lighter;
+      font-size: 1.3rem;
     }
   }
   &__submit {

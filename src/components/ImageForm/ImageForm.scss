@@ -92,6 +92,10 @@
   font-size: 1.3rem;
   color: gray;
   border-radius: 0.25rem;
+  border: 1px solid #f15529;
+  &:focus {
+    border: 2px solid #f15529;
+  }
 }
 
 .error {

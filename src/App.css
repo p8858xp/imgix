@@ -8,8 +8,8 @@ body {
   background-color: #162029;
   color: #fff;
   margin: 1em;
+  max-height: 100vh;
 }
-
 .app-header {
   text-align: center;
   font-size: 3rem;
